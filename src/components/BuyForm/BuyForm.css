@@ -1,0 +1,111 @@
+/*// Main */
+/*//General form container */
+.FormContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    background-color: #e7e7e4;
+    padding: 50px 20px;
+    gap: 10px;
+}
+/* // Section Card form container */
+.FormCardContainer {
+    width: auto;
+    height: auto;
+    padding: 40px 100%;
+    background: linear-gradient(#01abba, #e7e7e4);
+
+}
+/* First Fieldset User info Container */
+.UserDataFormContainer {
+    width: 25em;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 20px;
+    gap: 15px;
+}
+/* title */
+legend {
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.input {
+    width: 100%;
+    height: auto;
+    border-style: none;
+    border-color: #e7e7e4;
+    border-color: #e8e8cf;
+    border: 1px solid;
+    outline: none;
+
+    &.input::placeholder {
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        font-weight: 200;
+    }
+}
+/* Validation error styles */
+.error {
+    font-family: "Quicksand", sans-serif;
+    color: rgb(153, 90, 90);
+}
+/* // Second Fieldset Terms and Conditions container */
+.termsAndConditions-Container {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
+/* Terms and Conditions Imput */
+.TrmsAndCond {
+    font-size: 14px;
+}
+
+.termsAndConditions {
+    margin-left: 180px;
+}
+/* Terms and Conditions Btns (submit+ redirect) */
+.btn_submit {
+    font-family: "Quicksand", sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    color: #e7e7e4;
+    background-color: rgb(100, 100, 100);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+
+    &.btn_submit:hover {
+        background-color: white;
+        color: #3f454f;
+    }
+}
+
+.btnChange {
+    padding: 5px 25px;
+    background-color: #3f454f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 0.5s;
+
+    &.btnChange:hover {
+        background-color: white;
+        color: #3f454f;
+    }
+}

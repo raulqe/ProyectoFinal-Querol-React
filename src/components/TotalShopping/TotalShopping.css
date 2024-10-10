@@ -1,0 +1,86 @@
+/* // general container */
+.cardTotalShopBtnShow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:35px;
+    padding-top: 50px;
+    padding: 20px 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #e7e7e4;
+}
+/* title cart empty */
+.infoTitle{
+   padding:50px;
+   font-family: "Quicksand",sans-serif;
+   font-weight: bold;
+}
+/* // total container section */
+
+.totalTitle{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.font {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
+/* // Btns div container */
+.btnsCardContainer{
+    justify-content: space-between;
+    padding-left:40px;
+    padding-right: 40px;
+    gap:20px;
+}
+
+.btnBuy{
+ 
+    padding: 5px 50px;
+    background-color: rgb(158, 208, 158);
+    border-radius:10px;
+    border-style: none;
+    font-family: Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    transition: 0.5s;
+    &.btnBuy:hover{
+      background-color: rgb(141, 198, 141);
+    }
+}
+
+.BtnDeleteAll{
+    font-size: small;
+    color: white;
+    padding: 5px 35px;
+    background-color:rgb(206, 131, 146);
+    font-family: Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    &.BtnDeleteAll:hover{
+      background-color:rgb(207, 96, 118);
+    }
+}
+
+.btnBack {
+    padding: 5px 45px;
+    background-color: #3f454f;
+    border-radius:10px;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    transition: 0.5s;
+    &.btnBack:hover {
+      background-color: white;
+      color:#3f454f;
+    }
+}
+  

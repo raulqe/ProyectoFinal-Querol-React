@@ -1,0 +1,33 @@
+/* SECTION NAV  */
+
+/* General Container*/
+nav {
+    background: linear-gradient(#aeb3b8, #cccecf);
+    padding: 5%;
+
+}
+
+/*Logo + Title-Link*/
+.logo {
+    width: 50px;
+    height: 50px;
+    transition-duration: 5s;
+    
+    &.logo:hover {
+        transform: rotate(360deg);
+    }
+}
+
+.logoTitle {
+    font-family: "Bebas Neue", sans-serif;
+    transition: 2s;
+}
+
+/* NAV BTNS & FONTS ( */
+.btnS {
+    font-family: "Quicksand", sans-serif;
+    transition: 0.5s;
+    &.btnS:hover {
+        background-color: #91969d;
+    }
+}

@@ -1,0 +1,17 @@
+/* SECTION FOOTER */
+/* // General container */
+footer{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(#e7e7e4,#aeb3b8);
+    font-family: "Quicksand", sans-serif;
+}
+/*//FooterSocialmedia --> Svg  */
+.socialNetwork{
+    width: 24px;
+    height: 24px;
+    transition: 1s; 
+    &.socialNetwork:hover{
+        transform: scale(1.3);
+    }
+}

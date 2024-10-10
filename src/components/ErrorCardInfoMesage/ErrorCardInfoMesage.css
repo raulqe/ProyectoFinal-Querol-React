@@ -1,0 +1,47 @@
+/* // General div Error container */
+.btnBackContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    background-color: #e7e7e4;
+
+}
+
+/* // Article error card Container */
+.cardErrorRedirect {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    width: 65%;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    font-size: small;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    gap: 20px;
+    box-shadow: 10px 10px 10px #b06336;
+    transition: 1s;
+
+    &.cardErrorRedirect:hover {
+        transform: translate(0px, 10px);
+    }
+}
+
+/*  Title + paragraphs Fonts */
+.font-paragraph {
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+/* Div Btn Redirect Container //--> to "Home"('/')  */
+.btnDiv {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

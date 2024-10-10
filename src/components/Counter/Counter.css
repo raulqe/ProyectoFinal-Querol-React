@@ -1,0 +1,41 @@
+/*// Btns */
+/* Btn minus Quantity */
+.decrecBtn{
+	width: 25px;
+	height: 25px;
+	border-style: none;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #b6b9b953;
+	&.decrecBtn:hover{
+		background-color: #b4b6b662;
+	}
+}
+/* Btn Add Quantity */
+.addBtn{
+	width: 25px;
+	height: 25px;
+	border-style: none;
+	border-radius: 5px;
+	background-color: #b6b9b953;
+    &.addBtn:hover{
+		background-color: #b4b6b662;
+	}
+}
+/* Btn Add Product */
+.btnAddProduct{
+    padding: 5px 45px;
+    background-color: #bee5eb;
+    border-radius:10px;
+    color: black;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: 100;
+    border-style: none;
+
+    &.btnAddProduct:hover {
+      background-color: #e7e7e4;
+    } 
+}

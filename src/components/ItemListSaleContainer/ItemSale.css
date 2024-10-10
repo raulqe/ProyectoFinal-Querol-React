@@ -1,0 +1,76 @@
+
+.cardSaleProductShow {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap:35px;
+    padding-top: 50px;
+    padding: 50px 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e7e7e4;
+}
+.SaleContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 100px 100px;
+    gap:40px;
+    background: linear-gradient(#01abba, #e7e7e4);
+
+}
+.SaleTitle{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+}
+.SubtitleContainer{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 40px;
+    box-shadow: 1px 1px 1px 2px  #e7e7e4;
+    transition: 2s;
+   &.SubtitleContainer:hover{
+    background-color: #bee5eb;
+
+   }
+}
+.SubTitleSale{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    box-shadow: #e7e7e4;
+}
+.SubtitleContainer-right{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20px 0px 40px;
+    box-shadow: 1px 2px 2px 2px  #e7e7e4;
+    transition: 2s;
+   &.SubtitleContainer-right:hover{
+    background-color: #bee5eb;
+
+   }
+}
+.SalePrice{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    font-weight:bold;
+    &.SalePrice:hover{
+        transform: scale(150%);
+    }
+}

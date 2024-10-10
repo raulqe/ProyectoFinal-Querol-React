@@ -1,0 +1,154 @@
+/* // Main general section container */
+.cardShippingProductShow {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap:35px;
+    padding-top: 50px;
+    padding: 50px 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e7e7e4;
+}
+/* // general Info container   */
+
+.ShippingInfoContainer{
+width: 100%;
+height: 100%;
+padding: 0;
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+
+/* // Steps Section principal container */
+}
+.ShippingStepsSection{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    gap: 50px;
+}
+/* //first  card Article container */
+.ShippingStepsCardContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    min-width: 25em;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    font-size: small;
+    font-family: Helvetica, sans-serif;
+    font-weight:800;
+    gap:20px;
+    box-shadow: 10px 10px 10px #0097a5;
+    transition: 1s;
+    &.ShippingStepsCardContainer:hover{
+     transform:translate(0px,10px);
+    }
+  }
+  /* Div container Title + subtitle */
+.TitleStepContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.TitleFont{
+    width: 100px;
+    height: auto;
+    font-family: Helvetica, sans-serif;
+    font-weight:800;
+    padding: 10px 0;
+}
+.SubtitleFontStep{
+    font-family: Helvetica, sans-serif;
+    font-weight:500;
+    font-size: medium;
+}
+/* div Step secttion images container */
+.ImageBakgroundContainer{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  min-width: 25em;
+ 
+  gap: 20px;
+}
+.imageBakgrn{
+    
+    width: 25em;
+    height: 250px;
+    padding: 10px;
+    object-fit:fill;
+    border: 2px solid black;
+    gap:20px;
+}
+
+.descriptionStep{
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    width: 450px;
+    padding: 20px;
+}
+
+/*// Second setp Article container  */
+.ShippingStepProcesContainer{
+    width: 35em;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 40px;
+    box-shadow: 1px 1px 1px 2px  #0097a5;
+    gap:5px;
+    transition: 2s;
+   &.ShippingStepProcesContainer:hover{
+    background-color: #bee5eb;
+    transform:translate(0px,10px);
+
+   }
+}
+/* description */
+.descriptionProcesStep{
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: small;
+    width: 500px;
+    padding: 10px;
+    margin: none;
+}
+/* Images */
+.imageBakgrnSecondProces{
+    width: 25em;
+    height: 240px;
+    padding: 10px;
+    object-fit:fill;
+    border: 2px solid black;
+    background-color: #e7e7e4;
+    
+}
+/* third setp Article container*/
+.ShippingStepsFinallyContiner{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 25em;
+    padding: 20px;
+    gap: 20px;
+    transition: 1s;
+    &.ShippingStepsFinallyContiner:hover{
+     transform:translate(0px,10px);
+    }
+}

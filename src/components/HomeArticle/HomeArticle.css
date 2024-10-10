@@ -1,0 +1,58 @@
+
+
+/*Container Card*/
+.cardInfoRedirect{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 65%;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    font-size: small;
+    font-family: Helvetica, sans-serif;
+    font-weight:800;
+    gap:20px;
+    box-shadow: 10px 10px 10px #0097a5;
+    transition: 1s;
+   &.cardInfoRedirect:hover{
+    transform:translate(0px,10px);
+   }
+}
+
+/*Title*/
+.font {
+    font-family: "Quicksand", sans-serif;
+}
+
+/*Images*/
+
+.imgProductInfo {
+    width: 23em;
+    height: 240px;
+    padding: 10px;
+    object-fit:fill;
+    border: 2px solid black;
+}
+/*description*/
+.font-paragraph {
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+}
+/*Buton redirect sectionPage*/
+.btnDetailProductLink {
+    padding: 5px 45px;
+    background-color: #bee5eb;
+    border-radius:10px;
+    color: black;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: 100;
+
+    &.btnDetailProductLink:hover{
+        background-color: #e7e7e4;
+    }
+}

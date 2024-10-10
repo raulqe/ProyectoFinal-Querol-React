@@ -1,0 +1,7 @@
+.btnS {
+    font-family: "Quicksand", sans-serif;
+    
+    &.btnS:hover {
+        background-color: #91969d;
+    }
+}

@@ -1,0 +1,22 @@
+/* // general div Container */
+.background{
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+background-color: #e7e7e4;
+width: 100%;
+height: 100vh;
+padding: 200px;
+}
+/* Logo Espiner */
+.Loading{
+    width: 100px;
+    height: auto;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+  
